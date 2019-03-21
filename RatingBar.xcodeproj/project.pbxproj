@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E837C1402243161B00CFB911 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E837C13F2243161B00CFB911 /* AppDelegate.swift */; };
+		E837C1422243161B00CFB911 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E837C1412243161B00CFB911 /* ViewController.swift */; };
+		E837C1472243161B00CFB911 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E837C1462243161B00CFB911 /* Assets.xcassets */; };
+		E837C1632243168100CFB911 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E837C1622243168100CFB911 /* UIViewExtension.swift */; };
+		E837C1692243170000CFB911 /* RatingBarCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E837C1662243170000CFB911 /* RatingBarCellTests.swift */; };
+		E837C16A2243170000CFB911 /* RatingBarCVControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E837C1672243170000CFB911 /* RatingBarCVControllerTests.swift */; };
+		E837C16B2243170000CFB911 /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E837C1682243170000CFB911 /* ViewControllerTests.swift */; };
+		E837C16E2243172300CFB911 /* RatingBarCVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E837C16C2243172300CFB911 /* RatingBarCVController.swift */; };
+		E837C16F2243172300CFB911 /* RatingBarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E837C16D2243172300CFB911 /* RatingBarCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E837C1512243161B00CFB911 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E837C1342243161B00CFB911 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E837C13B2243161B00CFB911;
+			remoteInfo = RatingBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E837C13C2243161B00CFB911 /* RatingBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RatingBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E837C13F2243161B00CFB911 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E837C1412243161B00CFB911 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E837C1462243161B00CFB911 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E837C14B2243161B00CFB911 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E837C1502243161B00CFB911 /* RatingBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RatingBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E837C1562243161B00CFB911 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E837C1622243168100CFB911 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		E837C1662243170000CFB911 /* RatingBarCellTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingBarCellTests.swift; sourceTree = "<group>"; };
+		E837C1672243170000CFB911 /* RatingBarCVControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingBarCVControllerTests.swift; sourceTree = "<group>"; };
+		E837C1682243170000CFB911 /* ViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerTests.swift; sourceTree = "<group>"; };
+		E837C16C2243172300CFB911 /* RatingBarCVController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingBarCVController.swift; sourceTree = "<group>"; };
+		E837C16D2243172300CFB911 /* RatingBarCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingBarCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E837C1392243161B00CFB911 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E837C14D2243161B00CFB911 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E837C1332243161B00CFB911 = {
+			isa = PBXGroup;
+			children = (
+				E837C13E2243161B00CFB911 /* RatingBar */,
+				E837C1532243161B00CFB911 /* RatingBarTests */,
+				E837C13D2243161B00CFB911 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E837C13D2243161B00CFB911 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E837C13C2243161B00CFB911 /* RatingBar.app */,
+				E837C1502243161B00CFB911 /* RatingBarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E837C13E2243161B00CFB911 /* RatingBar */ = {
+			isa = PBXGroup;
+			children = (
+				E837C13F2243161B00CFB911 /* AppDelegate.swift */,
+				E837C15F2243165F00CFB911 /* Configs */,
+				E837C1602243166800CFB911 /* Resources */,
+				E837C1612243166D00CFB911 /* Extensions */,
+				E837C164224316D700CFB911 /* Main */,
+				E837C165224316DA00CFB911 /* RatingBar */,
+			);
+			path = RatingBar;
+			sourceTree = "<group>";
+		};
+		E837C1532243161B00CFB911 /* RatingBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				E837C1662243170000CFB911 /* RatingBarCellTests.swift */,
+				E837C1672243170000CFB911 /* RatingBarCVControllerTests.swift */,
+				E837C1682243170000CFB911 /* ViewControllerTests.swift */,
+				E837C1562243161B00CFB911 /* Info.plist */,
+			);
+			path = RatingBarTests;
+			sourceTree = "<group>";
+		};
+		E837C15F2243165F00CFB911 /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				E837C14B2243161B00CFB911 /* Info.plist */,
+			);
+			path = Configs;
+			sourceTree = "<group>";
+		};
+		E837C1602243166800CFB911 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E837C1462243161B00CFB911 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E837C1612243166D00CFB911 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E837C1622243168100CFB911 /* UIViewExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E837C164224316D700CFB911 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E837C1412243161B00CFB911 /* ViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		E837C165224316DA00CFB911 /* RatingBar */ = {
+			isa = PBXGroup;
+			children = (
+				E837C16D2243172300CFB911 /* RatingBarCell.swift */,
+				E837C16C2243172300CFB911 /* RatingBarCVController.swift */,
+			);
+			path = RatingBar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E837C13B2243161B00CFB911 /* RatingBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E837C1592243161B00CFB911 /* Build configuration list for PBXNativeTarget "RatingBar" */;
+			buildPhases = (
+				E837C1382243161B00CFB911 /* Sources */,
+				E837C1392243161B00CFB911 /* Frameworks */,
+				E837C13A2243161B00CFB911 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RatingBar;
+			productName = RatingBar;
+			productReference = E837C13C2243161B00CFB911 /* RatingBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E837C14F2243161B00CFB911 /* RatingBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E837C15C2243161B00CFB911 /* Build configuration list for PBXNativeTarget "RatingBarTests" */;
+			buildPhases = (
+				E837C14C2243161B00CFB911 /* Sources */,
+				E837C14D2243161B00CFB911 /* Frameworks */,
+				E837C14E2243161B00CFB911 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E837C1522243161B00CFB911 /* PBXTargetDependency */,
+			);
+			name = RatingBarTests;
+			productName = RatingBarTests;
+			productReference = E837C1502243161B00CFB911 /* RatingBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E837C1342243161B00CFB911 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = jklabs;
+				TargetAttributes = {
+					E837C13B2243161B00CFB911 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					E837C14F2243161B00CFB911 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = E837C13B2243161B00CFB911;
+					};
+				};
+			};
+			buildConfigurationList = E837C1372243161B00CFB911 /* Build configuration list for PBXProject "RatingBar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E837C1332243161B00CFB911;
+			productRefGroup = E837C13D2243161B00CFB911 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E837C13B2243161B00CFB911 /* RatingBar */,
+				E837C14F2243161B00CFB911 /* RatingBarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E837C13A2243161B00CFB911 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E837C1472243161B00CFB911 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E837C14E2243161B00CFB911 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E837C1382243161B00CFB911 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E837C16F2243172300CFB911 /* RatingBarCell.swift in Sources */,
+				E837C1632243168100CFB911 /* UIViewExtension.swift in Sources */,
+				E837C16E2243172300CFB911 /* RatingBarCVController.swift in Sources */,
+				E837C1422243161B00CFB911 /* ViewController.swift in Sources */,
+				E837C1402243161B00CFB911 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E837C14C2243161B00CFB911 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E837C16A2243170000CFB911 /* RatingBarCVControllerTests.swift in Sources */,
+				E837C1692243170000CFB911 /* RatingBarCellTests.swift in Sources */,
+				E837C16B2243170000CFB911 /* ViewControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E837C1522243161B00CFB911 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E837C13B2243161B00CFB911 /* RatingBar */;
+			targetProxy = E837C1512243161B00CFB911 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E837C1572243161B00CFB911 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E837C1582243161B00CFB911 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E837C15A2243161B00CFB911 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PFVS2N86DB;
+				INFOPLIST_FILE = RatingBar/Configs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jklabs.RatingBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E837C15B2243161B00CFB911 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PFVS2N86DB;
+				INFOPLIST_FILE = RatingBar/Configs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jklabs.RatingBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		E837C15D2243161B00CFB911 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PFVS2N86DB;
+				INFOPLIST_FILE = RatingBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jklabs.RatingBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RatingBar.app/RatingBar";
+			};
+			name = Debug;
+		};
+		E837C15E2243161B00CFB911 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PFVS2N86DB;
+				INFOPLIST_FILE = RatingBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jklabs.RatingBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RatingBar.app/RatingBar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E837C1372243161B00CFB911 /* Build configuration list for PBXProject "RatingBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E837C1572243161B00CFB911 /* Debug */,
+				E837C1582243161B00CFB911 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E837C1592243161B00CFB911 /* Build configuration list for PBXNativeTarget "RatingBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E837C15A2243161B00CFB911 /* Debug */,
+				E837C15B2243161B00CFB911 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E837C15C2243161B00CFB911 /* Build configuration list for PBXNativeTarget "RatingBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E837C15D2243161B00CFB911 /* Debug */,
+				E837C15E2243161B00CFB911 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E837C1342243161B00CFB911 /* Project object */;
+}
