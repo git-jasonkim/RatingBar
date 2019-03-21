@@ -13,6 +13,6 @@ Total Rating Level limited to ten cells.
 <li>Cell 6-8: Red</li>
 <li>Cell 9: Black</li>
 <br/>
-<p>
-  <img src="Previews/ratingBar_img.png" width="350" border="3" alt="image preview">
-</p>
+<table><tr><td>
+  <img src="Previews/ratingBar_img.png" width="350" alt="image preview">
+</td></tr></table>
